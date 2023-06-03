@@ -54,13 +54,23 @@ body{
 	background: white;
 	width: 70px;
 	height: 70px;
-	display: block;
-	float: left;
-	margin: 1.5px;
+	display: inline-block;
+	margin: 1.5px auto;
 	padding: 5px;
 	border: 1px solid black;
 }
 
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
 
+.pointform{
+    font-size: 18px;
+}
 
 
